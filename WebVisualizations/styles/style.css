@@ -1,0 +1,21 @@
+.launch-imag {
+    float: left;
+    width: 40%;
+    height: auto;
+    margin-right: 35px;
+}
+
+th, td {
+    padding: 5px;
+    text-align: left;
+  }
+
+.visualization {
+    width: 100%;
+    cel: 0 50px 0 10px;
+}
+
+.table-imag {
+    width:100%;
+    height: auto;
+}
