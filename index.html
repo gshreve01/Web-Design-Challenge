@@ -52,7 +52,7 @@
   <div class="container">
     <div class="page-header" id="banner">
       <div class="row">
-        <div class="col-lg-12 col-md-7 col-sm-6">
+        <div class="col-lg-12">
           <div class="jumbotron">
             <h1 class="display-3">A Study of Covid-19</h1>
             <p class="lead">Based on a Data Analytics project covering the counties of North Carolina</p>
@@ -64,62 +64,66 @@
     <main>
       <div class="container">
         <div class="row">
-          <div class="col-md-7">
-            <div class="card text-white bg-primary mb-3">
-              <div class="card-header">Summary: Covid-19 in North Carolina</div>
-              <div class="card-body">
-                <h4 class="card-title">The Goals of the Project</h4>
-                <p class="card-text">
-                  <img id="top10-image" class="launch-imag" src="WebVisualizations/resources/assets/images/top10.png">
-                <ul>
-                  <li>Use Census data to establish correlation with demographics and Covid 19 data</li>
-                  <li>The top 10 counties that were affected with Covid 19</li>
-                  <li>Understand the correlation between the following:
+          <div class="col-lg-12">
+            <div class="row">
+              <div class="col-lg-6 col-lg-5">
+                <div class="card text-white bg-primary mb-3">
+                  <div class="card-header">Summary: Covid-19 in North Carolina</div>
+                  <div class="card-body">
+                    <h4 class="card-title">The Goals of the Project</h4>
+                    <p class="card-text">
+                      <img id="top10-image" class="launch-imag"
+                        src="WebVisualizations/resources/assets/images/top10.png">
                     <ul>
-                      <li>Population Vs Confirmed cases</li>
-                      <li>Median Age Vs Confirmed cases</li>
-                      <li>Median age Vs Death</li>
-                      <li>Household Income Vs Confirmed cases</li>
+                      <li>Use Census data to establish correlation with demographics and Covid 19 data</li>
+                      <li>The top 10 counties that were affected with Covid 19</li>
+                      <li>Understand the correlation between the following:
+                        <ul>
+                          <li>Population Vs Confirmed cases</li>
+                          <li>Median Age Vs Confirmed cases</li>
+                          <li>Median age Vs Death</li>
+                          <li>Household Income Vs Confirmed cases</li>
+                        </ul>
+                      <li>Develop Heatmap for Confirmed & Death cases in North Corolina by county</li>
                     </ul>
-                  <li>Develop Heatmap for Confirmed & Death cases in North Corolina by county</li>
-                </ul>
-                </li>
-                </ul>
-                </p>
+                    </li>
+                    </ul>
+                    </p>
+                  </div>
+                </div>
               </div>
-            </div>
+              <div class="col-lg-6">
+                <div style="align-items: stretch;" class="card text-white bg-primary mb-3">
+                  <div class="card-header">Visualizations</div>
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-lg-6 launch_visualization">
+                        <img id="image-1" class="visualization-imag"
+                          src="WebVisualizations/resources/assets/images/HouseholdIncomeVsConfirmedCases.png">
+                      </div>
 
-          </div>
-          <div class="col-md-5">
-            <div class="card text-white bg-primary mb-3">
-              <div class="card-header">Visualizations</div>
-              <div class="card-body">
-                <table class="visualization">
-                  <tr>
-                    <td>
-                      <img id="image-1" class="table-imag"
-                        src="WebVisualizations/resources/assets/images/HouseholdIncomeVsConfirmedCases.png">
-                    </td>
-                    <td>
-                      <img id="image-1" class="table-imag"
-                        src="WebVisualizations/resources/assets/images/MedianAgeVsConfirmed.png">
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <img id="image-1" class="table-imag"
-                        src="WebVisualizations/resources/assets/images/MedianAgeVsDeaths.png">
-                    </td>
-                    <td>
-                      <img id="image-1" class="table-imag"
-                        src="WebVisualizations/resources/assets/images/PopulationVsConfirmedCases.png">
-                    </td>
-                  </tr>
-                </table>
+                      <div class="col-lg-6 launch_visualization">
+                        <img id="image-1" class="visualization-imag"
+                          src="WebVisualizations/resources/assets/images/MedianAgeVsConfirmed.png">
+                      </div>
+
+                      <div class="col-lg-6 launch_visualization">
+                        <img id="image-1" class="visualization-imag"
+                          src="WebVisualizations/resources/assets/images/MedianAgeVsDeaths.png">
+                      </div>
+
+                      <div class="col-lg-6 launch_visualization">
+                        <img id="image-1" class="visualization-imag"
+                          src="WebVisualizations/resources/assets/images/PopulationVsConfirmedCases.png">
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
+      </div>
     </main>
 
 
