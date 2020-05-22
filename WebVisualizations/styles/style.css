@@ -44,6 +44,13 @@ img.team {
     height: auto;
 }
 
-
+#footer {
+    border-top: 1px solid #00F0FF;
+    height: 25px;
+    margin-top: -15px;
+    padding: 5px 0;
+    width: 100%;
+    position: relative;  /*use relative position*/
+  }
 
 
