@@ -13,13 +13,16 @@
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
     <div class="collapse navbar-collapse" id="navbarColor01">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
           <a class="nav-link" href="../index.html">Home</span></a>
         </li>
         <li class="navbar-nav">
-          <div class="collapse navbar-collapse" id="navbarResponsive">
+          <div class="navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav">
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="visualizations"
@@ -52,9 +55,9 @@
   <div class="container">
     <div class="page-header" id="banner">
       <div class="row">
-        <div class="col-lg-12 col-md-7 col-sm-6">
+        <div class="col-lg-12 col-lg-8 col-lg-6">
           <div class="jumbotron">
-            <h1 class="display-3">A Study of Covid-19</h1>
+            <h1 class="display-5">A Study of Covid-19</h1>
             <p class="lead">Based on a Data Analytics project covering the counties of North Carolina</p>
           </div>
         </div>
@@ -67,23 +70,46 @@
               <h4 class="card-title">Game Of Threads</h4>
               <p class="card-text">The team name was a pun of "Game Of Thrones" as there was an initial battle to find
                 the right data and then <span class="emphasis">Thread</span> the data together for analysis.</p>
+              <div class="team">
+                <table class="team">
+                  <tr>
+                    <th colspan=2 class="team">Team Members</th>
+                  </tr>
+                  <tr>
+                    <td>Heba Mosan</td>
+                    <td><img class="team" src="Resources\assets\images\Heba.jpg"></td>
+                  </tr>
+                  <tr>
+                    <td>Karine Piccolli</td>
+                    <td><img class="team" src="Resources\assets\images\Karine.jpg"></td>
+                  </tr>
+                  <tr>
+                    <td>Gregory Shreve</td>
+                    <td><img class="team" src="Resources\assets\images\Gregory.jpg"></td>
+                  </tr>
+                  <tr>
+                    <td>Sashi Devulapalli</td>
+                    <td><img class="team" src="Resources\assets\images\Sashi.jpg"></td>
+                  </tr>
+                </table>
+              </div>
             </div>
           </div>
         </div>
         <div class="col-md-6">
           <div class="card text-white bg-info mb-3">
-            <div class="card-header">Header</div>
+            <div class="card-header">Summary</div>
             <div class="card-body">
-              <h4 class="card-title">Success card title</h4>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
+              <h4 class="card-title">A Bootcamp Trilogy Project</h4>
+              <p class="card-text">A study of the Covid 19 virus during the month of April using demographic census data.  The attempt was to discover 
+                if any correlations existed between geographic populations, age, and economic factors.  The data was gathered using APIs provided for Covid 19 and the cencus 
+              data for the counties of North Caralina.  This data was converted into Pandas data frames to gather statistical information, and generate various changes.  The 
+              conculsion was that the county population data was useful for analysis, while median age and median income of were not significant enough to analyze the 
+              Covid 19 data.</p>
             </div>
           </div>
         </div>
       </div>
-
-
-
       <footer id="footer">
         <div class="row fixed-bottom">
           <div class="col-lg-12">

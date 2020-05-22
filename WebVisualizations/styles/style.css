@@ -14,7 +14,7 @@
 th, td {
     padding: 5px;
     text-align: left;
-  }
+}
 
 .visualization {
     /* width: 100%; */
@@ -24,3 +24,26 @@ th, td {
 .emphasis {
     font: italic bold 15px/30px Georgia, serif;
 }
+
+table.team {
+    width: 50%;
+}
+
+th.team {
+    text-align: center;
+}
+
+div.team {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img.team {
+    width:60px;
+    height: auto;
+}
+
+
+
+
