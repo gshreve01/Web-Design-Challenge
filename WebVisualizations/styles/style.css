@@ -53,4 +53,7 @@ img.team {
     position: relative;  /*use relative position*/
   }
 
+nav.h3 {
+    color: white;
+}
 

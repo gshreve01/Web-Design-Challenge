@@ -13,43 +13,52 @@
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
+      aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarColor01">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="nav-link" href="../index.html">Home</span></a>
-        </li>
-        <li class="navbar-nav">
-          <div class="navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav">
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="visualizations"
-                  aria-expanded="false">Visualizations<span class="caret"></span></a>
-                <div class="dropdown-menu" aria-labelledby="themes">
-                  <a class="dropdown-item" href="PopulationVsConfirmed.html">Population VS Confirmed</a>
-                  <a class="dropdown-item" href="MedianAgeVsConfirmed.html">Median Age VS Confirmed</a>
-                  <a class="dropdown-item" href="MedianAgeVsDeath.html">Median Age VS Death</a>
-                  <a class="dropdown-item" href="HoseholdIncomeVsConfirmed.html">Hosehold Income VS Confirmed</a>
-                </div>
-              </li>
-            </ul>
-
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="Comparisons.html">Comparisons</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="data.html">Data</a>
-        </li>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
+          <h3><a class="nav-link" href="../index.html">Covid-19</a></h3>
         </li>
       </ul>
+      <div class="collapse navbar-collapse order-3 dual-collapse2" id="navbarColor01">
+        <ul class="navbar-nav ml-auto">
+          <li class="navbar-nav">
+            <div class="navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="visualizations"
+                    aria-expanded="false">Visualizations<span class="caret"></span></a>
+                  <div class="dropdown-menu" aria-labelledby="themes">
+                    <a class="dropdown-item" href="PopulationVsConfirmed.html">Population VS
+                      Confirmed</a>
+                    <a class="dropdown-item" href="MedianAgeVsConfirmed.html">Median Age VS
+                      Confirmed</a>
+                    <a class="dropdown-item" href="MedianAgeVsDeath.html">Median Age VS Death</a>
+                    <a class="dropdown-item" href="HoseholdIncomeVsConfirmed.html">Hosehold Income VS
+                      Confirmed</a>
+                  </div>
+                </li>
+              </ul>
+
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="comparisons.html">Comparisons</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="data.html">Data</a>
+          </li>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="about.html">About<span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+      </div>
     </div>
+
   </nav>
 
   <div class="container">
@@ -103,8 +112,8 @@
               <h4 class="card-title">A Bootcamp Trilogy Project</h4>
               <p class="card-text">A study of the Covid 19 virus during the month of April 2020 using demographic census data.  The attempt was to discover 
                 if any correlations existed between geographic populations, age, and economic factors.  The data was gathered using APIs provided for Covid 19 and the cencus 
-              data for the counties of North Caralina.  This data was converted into Pandas data frames to gather statistical information, and generate various changes.  The 
-              conculsion was that the county population data was useful for analysis, while median age and median income of were not significant enough to analyze the 
+              data for the counties of North Caralina.  This data was converted into Pandas data frames to gather statistical information, and generate various charts.  The 
+              conculsion was that the county population data was useful for analysis, while median age and median income of were probably not significant enough to analyze the 
               Covid 19 data.</p>
             </div>
           </div>
